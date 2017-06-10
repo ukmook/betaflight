@@ -91,7 +91,7 @@
 
 #define USE_SOFTSERIAL1
 #define SOFTSERIAL1_RX_PIN      PA1 // S5
-#define SOFTSERIAL1_TX_PIN      PA0  // S6
+#define SOFTSERIAL1_TX_PIN      PA0 // S6
 
 #define SERIAL_PORT_COUNT 5
 
@@ -115,6 +115,9 @@
 #define USE_I2C
 #define USE_I2C_DEVICE_1
 #define I2C_DEVICE              (I2CDEV_1)
+#define USE_I2C_DEVICE_2
+#define I2C_DEVICE              (I2CDEV_2)
+
 
 #define USE_ADC
 #define VBAT_ADC_PIN            PC1
@@ -124,7 +127,7 @@
 
 #define DEFAULT_RX_FEATURE      FEATURE_RX_SERIAL
 #define SERIALRX_PROVIDER       SERIALRX_SBUS
-#define SERIALRX_UART           SERIAL_PORT_USART6
+#define SERIALRX_UART           SERIAL_PORT_USART3
 
 #define USE_SERIAL_4WAY_BLHELI_INTERFACE
 
