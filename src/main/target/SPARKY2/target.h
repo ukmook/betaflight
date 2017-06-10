@@ -89,7 +89,11 @@
 #define UART6_RX_PIN            PC7
 #define UART6_TX_PIN            PC6 //inverter
 
-#define SERIAL_PORT_COUNT 4
+#define USE_SOFTSERIAL1
+#define SOFTSERIAL1_RX_PIN      PA1 // S5
+#define SOFTSERIAL1_TX_PIN      PA0  // S6
+
+#define SERIAL_PORT_COUNT 5
 
 #define USE_ESCSERIAL
 #define ESCSERIAL_TIMER_TX_HARDWARE 0 // PWM 1
